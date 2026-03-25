@@ -31,7 +31,7 @@ const PriceComparison = () => {
           <div className="grid grid-cols-3 gradient-navy text-primary-foreground">
             <div className="p-4 md:p-5 font-body font-semibold">Feature</div>
             <div className="p-4 md:p-5 font-body font-semibold text-center gradient-gold text-accent-foreground">
-              Empress Shipping
+              Empress Shipping & Supplies LLC
             </div>
             <div className="p-4 md:p-5 font-body font-semibold text-center">Typical Agency</div>
           </div>
