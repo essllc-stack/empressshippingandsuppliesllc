@@ -55,6 +55,9 @@ const Pricing = () => {
           <p className="text-primary-foreground/70 font-body mt-4 text-lg">
             No hidden fees. Choose what works for your business.
           </p>
+          <p className="text-primary-foreground/50 font-body mt-2 text-sm italic">
+            Pricing varies based on your business needs.
+          </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {plans.map((plan) => (
