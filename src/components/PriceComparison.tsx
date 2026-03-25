@@ -3,7 +3,7 @@ import { Check, X } from "lucide-react";
 const comparisons = [
   { feature: "Custom website (5 pages)", empress: "$499 one-time", agency: "$3,000 – $10,000+" },
   { feature: "Delivery time", empress: "7–10 business days", agency: "4–12 weeks" },
-  { feature: "Monthly maintenance", empress: "$99/mo", agency: "$200 – $500/mo" },
+  { feature: "Monthly maintenance", empress: "$49/mo", agency: "$200 – $500/mo" },
   { feature: "Mobile responsive", empress: true, agency: true },
   { feature: "SEO optimized", empress: true, agency: "Often extra cost" },
   { feature: "SSL certificate", empress: true, agency: "Sometimes extra" },
