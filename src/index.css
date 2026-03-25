@@ -100,13 +100,13 @@
 
 @layer utilities {
   .gradient-gold {
-    background: linear-gradient(135deg, hsl(42 85% 55%), hsl(42 90% 62%));
+    background: linear-gradient(135deg, hsl(348 74% 84%), hsl(348 80% 88%));
   }
   .gradient-navy {
     background: linear-gradient(135deg, hsl(220 65% 12%), hsl(220 50% 22%));
   }
   .text-gradient-gold {
-    background: linear-gradient(135deg, hsl(42 85% 55%), hsl(42 90% 62%));
+    background: linear-gradient(135deg, hsl(348 74% 84%), hsl(348 80% 88%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
