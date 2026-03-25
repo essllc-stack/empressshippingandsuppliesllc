@@ -1,4 +1,4 @@
-import { Anchor, ArrowRight } from "lucide-react";
+import { Anchor, ArrowRight, Ship } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
@@ -9,6 +9,20 @@ const Hero = () => {
         style={{ backgroundImage: `url(${heroBg})` }}
       />
       <div className="absolute inset-0 gradient-navy opacity-85" />
+
+      {/* Animated ships */}
+      <div className="absolute inset-0 z-[1] pointer-events-none overflow-hidden">
+        <div className="absolute top-[12%] animate-sail-right opacity-20">
+          <Ship className="w-10 h-10 text-secondary" />
+        </div>
+        <div className="absolute top-[28%] animate-sail-left opacity-15" style={{ animationDelay: "-8s" }}>
+          <Ship className="w-8 h-8 text-secondary" />
+        </div>
+        <div className="absolute top-[65%] animate-sail-right opacity-10" style={{ animationDelay: "-15s" }}>
+          <Ship className="w-12 h-12 text-secondary" />
+        </div>
+      </div>
+
       <div className="relative z-10 container mx-auto px-6 py-20">
         <div className="max-w-3xl">
           <div className="flex items-center gap-3 mb-6">
