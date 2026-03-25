@@ -23,7 +23,7 @@ const plans = [
     name: "Website + Maintenance",
     price: "$499",
     period: "one-time",
-    addon: "+ $99/mo",
+    addon: "+ $49/mo",
     addonLabel: "maintenance",
     description: "Everything in the website package, plus ongoing monthly support and updates.",
     features: [
