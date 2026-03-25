@@ -19,8 +19,8 @@ export default {
     extend: {
       colors: {
         gold: {
-          DEFAULT: "hsl(42 85% 55%)",
-          glow: "hsl(42 90% 62%)",
+          DEFAULT: "hsl(348 74% 84%)",
+          glow: "hsl(348 80% 88%)",
         },
         navy: {
           DEFAULT: "hsl(220 65% 12%)",
@@ -77,25 +77,27 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        "sail-right": {
+          "0%": { transform: "translateX(-150px)" },
+          "100%": { transform: "translateX(calc(100vw + 150px))" },
+        },
+        "sail-left": {
+          "0%": { transform: "translateX(calc(100vw + 150px))" },
+          "100%": { transform: "translateX(-150px)" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "sail-right": "sail-right 25s linear infinite",
+        "sail-left": "sail-left 30s linear infinite",
       },
     },
   },
