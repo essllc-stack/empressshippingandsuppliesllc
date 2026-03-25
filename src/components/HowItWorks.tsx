@@ -10,14 +10,14 @@ const steps = [
   {
     icon: FileText,
     number: "2",
-    title: "Receive Your Proposal",
-    description: "Get a detailed proposal with a clear timeline, pricing, and everything you need to know.",
+    title: "Your Website Is Ready",
+    description: "We already have a website set and ready to go for your business to use — no long waits.",
   },
   {
     icon: Rocket,
     number: "3",
     title: "You're All Good to Go",
-    description: "Sit back while we build your site. You'll have a professional website ready to launch.",
+    description: "Sit back and relax — we'll send you your website flash fast so you can start growing your business.",
   },
 ];
 
