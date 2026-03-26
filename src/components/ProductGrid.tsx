@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchProducts, ShopifyProduct } from "@/lib/shopify";
+import { fetchProducts, ShopifyProduct } from "@/lib/shopify.tsx";
 import { useCartStore } from "@/stores/cartStore";
 import { Loader2, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";

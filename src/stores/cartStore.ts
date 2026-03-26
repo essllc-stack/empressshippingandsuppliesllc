@@ -8,9 +8,9 @@ import {
   removeLineFromShopifyCart,
   storefrontApiRequest,
   CART_QUERY,
-} from '@/lib/shopify';
+} from '@/lib/shopify.tsx';
 
-export type { CartItem } from '@/lib/shopify';
+export type { CartItem } from '@/lib/shopify.tsx';
 
 interface CartStore {
   items: CartItem[];

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { fetchProductByHandle } from "@/lib/shopify";
+import { fetchProductByHandle } from "@/lib/shopify.tsx";
 import { useCartStore } from "@/stores/cartStore";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Loader2, Minus, Plus, ShoppingCart } from "lucide-react";
